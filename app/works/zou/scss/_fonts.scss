@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Chivo-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Chivo-Regular'),
+       url('../fonts/Chivo-Regular.woff2') format('woff2'),
+       url('../fonts/Chivo-Regular.woff') format('woff');
+  font-display: swap;
+}        
+
+@font-face {
+  font-family: 'Chivo-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Chivo-Regular'),
+    url('../fonts/Chivo-Bold.woff2') format('woff2'),
+    url('../fonts/Chivo-Bold.woff') format('woff');
+  font-display: swap;
+}

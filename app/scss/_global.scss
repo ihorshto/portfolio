@@ -1,7 +1,14 @@
-body{
-
+body {
+ font-size: 20px;
+ line-height: 24px;
+ @extend %montserat-400;
+ background-color: #F9FFFA;
+ color: #000;
 }
 
-.container{
- 
+.container {
+ max-width: 1220px;
+ width: 100%;
+ margin: 0 auto;
+ padding: 0 10px;
 }

@@ -1,0 +1,49 @@
+@font-face {
+ font-family: 'NewYorkLargeBold';
+ font-weight: 700;
+ font-style: normal;
+ src: local('NewYorkLargeBold'),
+      url('../fonts/NewYorkLargeBold.woff2'),
+      url('../fonts/NewYorkLargeBold.woff');
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFUIDisplay-Light';
+ font-weight: 300;
+ font-style: normal;
+ src: local('SFUIDisplay-Light'),
+      url('../fonts/SFUIDisplay-Light.woff2'),
+      url('../fonts/SFUIDisplay-Light.woff');
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFUIDisplay-Regular';
+ font-weight: 400;
+ font-style: normal;
+ src: local('SFUIDisplay-Regular'),
+      url('../fonts/SFUIDisplay-Regular.woff2'),
+      url('../fonts/SFUIDisplay-Regular.woff');
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFUIDisplay-Semibold';
+ font-weight: 600;
+ font-style: normal;
+ src: local('SFUIDisplay-Semibold'),
+      url('../fonts/SFUIDisplay-Semibold.woff2'),
+      url('../fonts/SFUIDisplay-Semibold.woff');
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFUIDisplay-Bold';
+ font-weight: 700;
+ font-style: normal;
+ src: local('SFUIDisplay-Bold'),
+      url('../fonts/SFUIDisplay-Bold.woff2'),
+      url('../fonts/NewYorkLargeBold.woff');
+ font-display: swap;
+}

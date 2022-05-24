@@ -1,0 +1,32 @@
+body {
+ font-size: 16px;
+ line-height: 26px;
+ color: #000;
+ @extend %sf-400;
+ letter-spacing: 0.01em;
+}
+
+.container {
+ max-width: 1130px;
+ width: 100%;
+ padding: 0 10px;
+ margin: 0 auto;
+}
+
+.consultation {
+
+ &__link {
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  @extend %sf-600;
+  padding: 8px 32px;
+  background-color: $red;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .3s;
+  &:hover{
+   background-color: #f5433a;
+  }
+ }
+}
